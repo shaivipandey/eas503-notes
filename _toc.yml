@@ -1,0 +1,73 @@
+format: jb-book
+root: chapters/intro
+options: 
+  numbered: True
+chapters:
+- file: chapters/01/fundamentals
+  sections:
+  - file: chapters/01/getting_started
+    title: Getting Started
+  - file: chapters/01/definitions
+    title: Definitions
+  - file: chapters/01/arithmetic
+    title: Arithmetic
+  - file: chapters/01/numeric_data_types.md
+    title: Numeric and None Data Types
+  - file: chapters/01/large_numbers.md
+    title: Working with Large Numbers
+  - file: chapters/01/operator_precedence.md
+    title: Operator Precedence
+  - file: chapters/01/variables.md
+    title: Variables
+  - file: chapters/01/memory.md
+    title: Memory Model
+  - file: chapters/01/augmented.md
+    title: Augmented Assignments
+  - file: chapters/01/errors.md
+    title: Error Types
+  - file: chapters/01/formatting_code.md
+    title: Formatting Code
+  - file: chapters/01/describing_code.md
+    title: Describing Code
+  - file: chapters/01/simultaneous_assignment.md
+    title: Simultaneous Assignment
+  - file: chapters/01/exercises.md
+    title: Exercises
+- file: chapters/02/functions
+  sections:
+  - file: chapters/02/intro
+    title: Introduction to Functions
+  - file: chapters/02/built_in
+    title: Built-in Functions
+  - file: chapters/02/user_defined
+    title: User Defined Functions
+  - file: chapters/02/return
+    title: Return Statement
+  - file: chapters/02/namespace
+    title: Namespace and Scope
+  - file: chapters/02/exercises
+    title: Exercises
+- file: chapters/03/intro
+  sections:
+  - file: chapters/03/basics
+    title: String Basics
+  - file: chapters/03/formatting
+    title: String Formatting
+  - file: chapters/03/creating_a_table
+    title: Creating a Table
+  - file: chapters/03/methods
+    title: String Methods
+  - file: chapters/03/exercises
+    title: Exercises
+- file: chapters/04/intro
+  sections:
+  - file: chapters/04/boolean
+    title: Boolean/Logical Operators
+  - file: chapters/04/relational
+    title: Relational Operators
+  - file: chapters/04/strings
+    title: String Comparison
+  - file: chapters/04/statement_selection
+    title: Statement Selection
+  - file: chapters/04/exercises
+    title: Exercises
