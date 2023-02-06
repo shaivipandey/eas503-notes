@@ -71,3 +71,27 @@ chapters:
     title: Statement Selection
   - file: chapters/04/exercises
     title: Exercises
+- file: chapters/05/intro
+  sections:
+  - file: chapters/05/lists
+    title: Lists
+  - file: chapters/05/methods
+    title: List Methods
+  - file: chapters/05/tuples
+    title: Tuples
+  - file: chapters/05/strings
+    title: Strings as a List
+- file: chapters/06/intro
+  sections:
+  - file: chapters/06/loop
+    title: for/while loop
+  - file: chapters/06/for_loop_exercises
+    title: For Loop Exercises
+  - file: chapters/06/while_loop_exercises
+    title: While Loop Exercises
+  - file: chapters/06/modify_loop_exercises
+    title: Modifying Loop Exercises
+  - file: chapters/06/comprehension
+    title: List/Tuple Comprehension
+  - file: chapters/06/comprehension_exercises
+    title: List Comprehension Exercises
