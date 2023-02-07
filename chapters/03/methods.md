@@ -92,7 +92,7 @@ print(my_string.isalpha())
 ```
 - `isdecimal()` -- Returns `True` if all the characters are numbers (0-9); USE THIS!
 - `isdigit()` -- Returns `True` if all the characters are numbers (0-9), superscripts (`"\u00B2"`), or fractions `'\u00BC'`; 
-- `isnumeric()` -- Returns `True` if all the characters are numbers (0-9), superscripts (`"\u00B2"`), fractions `'\u00BC'`, Roman Numerals!
+- `isnumeric()` -- Returns `True` if all the characters are numbers (0-9), superscripts (`"\u00B2"`), fractions `'\u00BC'`, or Roman Numerals!
 
 - `isalnum()` -- Returns `True` if the string is alpha numeric
 ```{code-cell} ipython3
@@ -139,10 +139,37 @@ print(my_string.count('CC'))
 print(my_string.count('CCC'))
 ```
 
-
 ## Modification Methods
 - `replace()` -- Replaces character(s) with other character(s); returns a new string
 ```{code-cell} ipython3
 my_string = '(EAS503)'
-print(my_string.replace('(', '').replace(')', '')
+print(my_string.replace('(', '').replace(')', ''))
+```
+- `zfill(number_of_zeros)` -- prepend zeros to a string; returns a new string
+```{code-cell} ipython3
+my_string = 'EAS503'
+my_string.zfill(8)
+```
+
+```{code-cell} ipython3
+my_string = '123'
+my_string.zfill(8)
+```
+
+## Creating a new String
+- `join((value1, value2, value3))` -- Creates a new string separated the values by whatever is in the string
+
+```{code-cell} ipython3
+years = ('1900', '1924', '1950', '1990')
+''.join((years))
+```
+
+```{code-cell} ipython3
+years = ('1900', '1924', '1950', '1990')
+'-'.join((years))
+```
+
+```{code-cell} ipython3
+years = ('1900', '1924', '1950', '1990')
+print('\n'.join((years)))
 ```
