@@ -53,7 +53,7 @@ chapters:
     title: String Basics
   - file: chapters/03/formatting
     title: String Formatting
-  - file: chapters/03/creating_a_table
+  - file: chapters/03/table
     title: Creating a Table
   - file: chapters/03/methods
     title: String Methods

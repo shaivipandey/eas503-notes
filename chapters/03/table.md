@@ -10,6 +10,10 @@ kernelspec:
   name: python3
 ---
 
+- [Video Recording](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8ccd12bd-44ce-49b3-a394-afa300e3d1f8)
+- [Jupyter Notebook](https://github.com/mkzia/eas503-book-notes/blob/main/03/table.ipynb)
+
+
 # Creating a Table
 
 Ref: https://scipython.com/book/chapter-2-the-core-python-language-i/string-representation-of-integers-with-comma-separated-thousands/
