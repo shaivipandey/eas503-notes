@@ -10,6 +10,9 @@ kernelspec:
   name: python3
 ---
 
+- [Video Recording (28 minutes)](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e9c44de7-a4de-4510-a573-afa9005b568d)
+- [Jupyter Notebook](https://github.com/mkzia/eas503-book-notes/blob/main/06/loop.ipynb)
+
 
 # Loops
 
@@ -35,7 +38,7 @@ while <condition>
 ## Range
 
 ```python
-range(start:stop:step) # [start:step:stop)
+range(start,stop,step) # [start:step:stop)
 ```
 
 ## Examples
@@ -102,9 +105,11 @@ for inner_list in elements:
 ### Example 8
 
 ```python
-info = [['Isaac Newton', 1643, 1727],
+info = [
+    ['Isaac Newton', 1643, 1727],
     ['Charles Darwin', 1809, 1882],
-    ['Alan Turing', 1912, 1954, 'alan@bletchley.uk']]
+    ['Alan Turing', 1912, 1954, 'alan@bletchley.uk']
+]
 for item in info:
     print(len(item))
 ```
@@ -121,11 +126,10 @@ for ele in x:
 
 ## How to sort without sorting?
 ```python
-x = [1, 7, 3]
-
-sum = 0
-for ele in x:
-    sum = sum *10 + ele
+string1 = '1134000234'
+string2 = ''.join(sorted([ele for ele in string1]))
+string3 = ''.join(sorted([ele for ele in string1], reverse=True))
+print(string1, string2, string3)
 ```
 
 ```python
@@ -159,6 +163,39 @@ with open(filename, 'r') as file:
         if not line.strip(): # used for skipping empty lines!
             continue
         # do something with line
+```
+
+
+## Skipping Bad values
+You can use a `try/except` blocks to skip bad values
+
+```python
+try:
+    value = float(line)
+except:
+    continue
+```
+
+## Initial Values
+Sometimes before the for loop code you to have initialize a variable to 0 or an empty list.
+1. If you want to calculate the average or sum of a list, for example, you would need to initialize a variable to zero and update it every time you access a new element in a list.
+
+```python
+total = 0
+count = 0
+for value in my_list:
+   total += value
+   count += 1
+average = total / count
+```
+
+2. If you want to keep track of some values as you loop over some list, you might need to initialize an empty list. One example is removing duplicates from a sequence.
+
+```python
+unique_values = []
+for ele in sequence:
+    if ele not in unique_values:
+        unique_values.append(ele)
 ```
 
 

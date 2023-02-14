@@ -10,6 +10,9 @@ kernelspec:
   name: python3
 ---
 
+- [Video Recording (6 minutes)](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9cb67cd-f676-4dcc-9908-afa9005c269c)
+- [Jupyter Notebook](https://github.com/mkzia/eas503-book-notes/blob/main/06/while_loop_exercises.ipynb)
+
 
 # While Loop Exercises
 
@@ -108,12 +111,13 @@ number = int(input('Enter a starting number: '))
 while number >= 0:
     print(number)
     number -= 1
+```
 
-
-###############################################################
-# while_ex4
+## Exercise 5
 # Write a program that takes an integer number and outputs all the even numbers starting from 0 to the number
 
+```{code-cell} ipython3
+:tags: ["hide-input",  "remove-output", "output_scroll"]
 end_number = int(input('Enter an integer number: '))
 current_number = 0
 while current_number <= end_number:

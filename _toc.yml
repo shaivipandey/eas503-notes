@@ -93,5 +93,5 @@ chapters:
     title: Modifying Loop Exercises
   - file: chapters/06/comprehension
     title: List/Tuple Comprehension
-  - file: chapters/06/comprehension_exercises
-    title: List Comprehension Exercises
+  - file: chapters/06/additional_exercises
+    title: Additional Exercises
