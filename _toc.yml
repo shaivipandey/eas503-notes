@@ -95,3 +95,28 @@ chapters:
     title: List/Tuple Comprehension
   - file: chapters/06/additional_exercises
     title: Additional Exercises
+- file: chapters/07/intro
+  sections:
+  - file: chapters/07/dictionary
+  - file: chapters/07/dictionary_exercises
+  - file: chapters/07/sets
+  - file: chapters/07/set_exercises
+- file: chapters/08/intro
+  sections:
+  - file: chapters/08/lambda
+  - file: chapters/08/lambda_exercises
+- file: chapters/09/intro
+  sections:
+  - file: chapters/09/errors
+- file: chapters/10/intro
+  sections:
+  - file: chapters/10/functions
+- file: chapters/11/intro
+  sections:
+  - file: chapters/11/misc
+- file: chapters/12/intro
+  sections:
+  - file: chapters/12/oop
+
+
+
