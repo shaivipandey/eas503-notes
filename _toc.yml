@@ -117,6 +117,22 @@ chapters:
 - file: chapters/12/intro
   sections:
   - file: chapters/12/oop
-
-
+- file: chapters/13/sql
+  sections:
+  - file: chapters/13/sql_0_tables
+  - file: chapters/13/sql_1_query_primer
+  - file: chapters/13/sql_2_filtering
+  - file: chapters/13/sql_3_sets
+  - file: chapters/13/sql_4_grouping
+  - file: chapters/13/sql_5_subqueries
+  - file: chapters/13/sql_6_conditionals
+  - file: chapters/13/sql_7_analytic_functions
+  - file: chapters/13/sql_8_normalization
+  - file: chapters/13/sql_9_python
+  - file: chapters/13/sql_10_india_export_data
+  - file: chapters/13/sql_11_soccer
+- file: chapters/14/intro
+  sections:
+  - file: chapters/14/np_pd
+  - file: chapters/14/exercises
 
