@@ -135,4 +135,12 @@ chapters:
   sections:
   - file: chapters/14/np_pd
   - file: chapters/14/exercises
+- file: chapters/15/intro
+- file: chapters/16/intro
+  sections:
+  - file: chapters/16/introduction
+  - file: chapters/16/loading_data
+  - file: chapters/16/preprocessing_data
+  - file: chapters/16/select_and_train_a_model
+  - file: chapters/16/misc
 
