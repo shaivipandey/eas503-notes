@@ -33,6 +33,8 @@ chapters:
     title: Simultaneous Assignment
   - file: chapters/01/exercises.md
     title: Exercises
+  - file: chapters/01/quizzes.md
+    title: Quizzes
 - file: chapters/02/functions
   sections:
   - file: chapters/02/intro

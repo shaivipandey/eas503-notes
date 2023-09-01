@@ -101,7 +101,7 @@ By utilizing your allocated late days wisely, you can navigate unexpected challe
 
 Throughout the course, you'll have access to a variety of resources that are vital for your learning journey. Here's where you can find them:
 
-1. **Course Book:** The course book will be available on this website: [Course Book](https://mkzia.github.io/eas503-book). 
+1. **Course Book:** The course book will be available on this website: [Course Book](https://mkzia.github.io/eas503-book).
 
 2. **Lecture Materials:** Lecture Jupyter notebooks will be hosted on GitHub: [Lecture Notebooks](https://github.com/mkzia/eas503). These materials supplement your in-class learning and serve as valuable references.
 
@@ -126,19 +126,18 @@ These resources are designed to support your learning, streamline communication,
 
 A successful start to the course requires a few preparatory steps. Before the first class, ensure you complete the following tasks:
 
-1. **Access UB Learns:** Confirm that you can log into the EAS503 course page on UB Learns. 
+1. **Access UB Learns:** Confirm that you can log into the EAS503 course page on UB Learns.
 
 2. **Course Book Access:** Ensure you can access the course book available at [Course Book](https://mkzia.github.io/eas503-book). Familiarize yourself with this resource to get a head start on the course content.
 
-3. **Codio Licensing:** Verify that you have obtained a license for Codio and can successfully log into the platform. Codio will be integral for completing programming assignments.
+3. **Codio Licensing:** Verify that you have obtained a license for Codio and can successfully log into the platform. [Invite Link](https://codio.com/p/signup?courseToken=harmony-basic)
 
 4. **Piazza Login:** Confirm your ability to log into Piazza, where you'll engage in course discussions, ask questions, and stay updated on course-related matters.
 
 5. **Software Installation:**
    - Install Anaconda, a comprehensive data science platform, from [Anaconda Individual Edition](https://www.anaconda.com/products/individual).
-   - Install Microsoft Visual Studio Code, a versatile code editor.
-
-Please note that an invitation granting you access to Codio and Piazza will be sent prior to the first lecture. Ensure you accept these invitations, as they are crucial for your participation and success in the course.
+   - Install Microsoft Visual Studio Code, from [website](https://code.visualstudio.com/).
+   - If you have Windows, install Python 3.11 from the App store.
 
 :::{note}
 This website will undergo regular updates throughout the semester.
@@ -183,7 +182,7 @@ Embrace sound cyber-security practices. Refrain from granting physical or electr
 
 from jupyterquiz import display_quiz
 
-quizz =[
+quiz =[
     {
         "question": "The course has a final exam",
         "type": "multiple_choice",
@@ -379,7 +378,7 @@ quizz =[
         ]
     },
     {
-        "question": "Your friend was sick, and out of empathy, you gave him your code so they could understand how to solve the problem. Is this considered cheating?",
+        "question": "Your friend was sick, and out of sympathy, you gave them your code so they could understand how to solve the problem. Is this considered cheating?",
         "type": "multiple_choice",
         "answers": [
             {
@@ -393,7 +392,7 @@ quizz =[
         ]
     },
     {
-        "question": "Your friend's laptop stopped working right before an assignment deadline so you lend them your laptop. They use your laptop and upload YOUR solution instead of theirs. Will this be considered cheating on your behalf although you did not do anything wrong?",
+        "question": "Your friend's laptop stopped working right before an assignment deadline, so you lend them your laptop. They use your laptop and upload YOUR solution instead of theirs. Will this be considered cheating on your behalf?",
         "type": "multiple_choice",
         "answers": [
             {
@@ -407,5 +406,5 @@ quizz =[
         ]
     },
 ]
-display_quiz(quizz)
+display_quiz(quiz, shuffle_questions=False, shuffle_answers=False)
 ```

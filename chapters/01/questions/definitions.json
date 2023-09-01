@@ -1,0 +1,181 @@
+[
+    
+    {
+        "question": "+, -, *, / are an example of",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Syntax",
+                "correct": false
+            },
+            {
+                "code": "Operator",
+                "correct": true
+            },
+            {
+                "code": "Operand",
+                "correct": false
+            },
+            {
+                "code": "Expression",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the expression, '4 + 5', '4' is ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Syntax",
+                "correct": false
+            },
+            {
+                "code": "Operator",
+                "correct": false
+            },
+            {
+                "code": "Operand",
+                "correct": true
+            },
+            {
+                "code": "Expression",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Expressions CANNOT contain other expressions",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false
+            },
+            {
+                "code": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Expressions are ALWAYS made up of",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Operator",
+                "correct": false
+            },
+            {
+                "code": "Operand",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Expressions can contain",
+        "type": "many_choice",
+        "answers": [
+            {
+                "code": "Operator",
+                "correct": true
+            },
+            {
+                "code": "Operand",
+                "correct": true
+            },
+            {
+                "code": "Expression",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Syntax is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "A set of rules that specify the correct arrangement of operators and operands",
+                "correct": true
+            },
+            {
+                "code": "Symbols that perform specific mathematical or logical manipulations",
+                "correct": false
+            },
+            {
+                "code": "The value that an operator acts upon",
+                "correct": false
+            },
+            {
+                "code": "A combination of operators and operands that returns a value",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Operator is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "A set of rules that specify the correct arrangement of operators and operands",
+                "correct": false
+            },
+            {
+                "code": "Symbols that perform specific mathematical or logical manipulations",
+                "correct": true
+            },
+            {
+                "code": "The value that an operator acts upon",
+                "correct": false
+            },
+            {
+                "code": "A combination of operators and operands that returns a value",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Operand is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "A set of rules that specify the correct arrangement of operators and operands",
+                "correct": false
+            },
+            {
+                "code": "Symbols that perform specific mathematical or logical manipulations",
+                "correct": false
+            },
+            {
+                "code": "The value that an operator acts upon",
+                "correct": true
+            },
+            {
+                "code": "A combination of operators and operands that returns a value",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Expression is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "A set of rules that specify the correct arrangement of operators and operands",
+                "correct": false
+            },
+            {
+                "code": "Symbols that perform specific mathematical or logical manipulations",
+                "correct": false
+            },
+            {
+                "code": "The value that an operator acts upon",
+                "correct": false
+            },
+            {
+                "code": "A combination of operators and operands that returns a value",
+                "correct": true
+            }
+        ]
+    }
+]

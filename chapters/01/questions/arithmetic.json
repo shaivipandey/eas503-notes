@@ -1,0 +1,82 @@
+[
+    
+    {
+        "question": "'//' Rounds toward",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Infinity",
+                "correct": false
+            },
+            {
+                "code": "Negative Infinity",
+                "correct": true
+            },
+            {
+                "code": "Zero",
+                "correct": false
+            },
+        ]
+    },
+    {
+        "question": "-4.5 // 2",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "-2.0",
+                "correct": false
+            },
+            {
+                "code": "-2.25",
+                "correct": false
+            },
+            {
+                "code": "-3.0",
+                "correct": true
+            },
+            {
+                "code": "-4.5",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "4.5 // 2",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "2.0",
+                "correct": true
+            },
+            {
+                "code": "2.25",
+                "correct": false
+            },
+            {
+                "code": "3.0",
+                "correct": false
+            },
+            {
+                "code": "4.5",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "If you need to determine how many full hours are in a given number of minutes, which operator would you use?"        "type": "many_choice",
+        "answers": [
+            {
+                "code": "%",
+                "correct": false
+            },
+            {
+                "code": "/",
+                "correct": false
+            },
+            {
+                "code": "//",
+                "correct": true
+            }
+        ]
+    }
+]

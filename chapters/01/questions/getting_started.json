@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Compiled programs require the source code or compiler to run.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false
+            },
+            {
+                "code": "false",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Interpreted programs do not require source code and the interpreter to run the code.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false
+            },
+            {
+                "code": "false",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Interpreted programs run faster than compiled programs.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false
+            },
+            {
+                "code": "false",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Compiled programs are more portable than interpreted programs.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false
+            },
+            {
+                "code": "false",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Compiled programs run on specific architecture only.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": true
+            },
+            {
+                "code": "false",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Python is low-level language",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false
+            },
+            {
+                "code": "false",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Python is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Compiled",
+                "correct": false
+            },
+            {
+                "code": "Interpreted",
+                "correct": false
+            },
+            {
+                "code": "Hybrid (compiled/interpreted)",
+                "correct": true
+            }
+        ]
+    }
+]
