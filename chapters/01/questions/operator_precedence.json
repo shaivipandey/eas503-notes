@@ -1,0 +1,67 @@
+[
+    {
+        "question": "The correct order of precedence in Python is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Parentheses, Exponents, Unary plus, Unary minus, Multiplication, Division, Integer division, Modulus (Remainder), Addition, Subtraction",
+                "correct": true
+            },
+            {
+                "answer": "Parentheses, Multiplication, Division, Integer division, Modulus (Remainder), Exponents, Unary plus, Unary minus, Addition, Subtraction",
+                "correct": false
+            },
+            {
+                "answer": "Parentheses, Exponents, Unary plus, Unary minus, Addition, Subtraction, Multiplication, Division, Integer division, Modulus (Remainder)",
+                "correct": false
+            },
+            {
+                "answer": "Parentheses, Addition, Subtraction, Exponents, Unary plus, Unary minus, Multiplication, Division, Integer division, Modulus (Remainder)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Is `9/5(4+3)` a valid Python expression?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Is `9/5*(4+3)` a valid Python expression?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Is `9--3*(4+3)` a valid Python expression?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    }
+    
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "question": "Assuming x is has been declared to 2, what is the value of x after `x += 4`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "This will raise a SyntaxError",
+                "correct": false
+            },
+            {
+                "answer": "6",
+                "correct": true
+            },
+            {
+                "answer": "32",
+                "correct": false
+            },
+            {
+                "answer": "8",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Assuming x is has been declared to 3, what is the value of x after `x *= 2`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "This will raise a SyntaxError",
+                "correct": false
+            },
+            {
+                "answer": "6",
+                "correct": true
+            },
+            {
+                "answer": "9",
+                "correct": false
+            },
+            {
+                "answer": "27",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Assuming x is has been declared to 3, the following is an example of `x *= 2`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "SyntaxError",
+                "correct": false
+            },
+            {
+                "answer": "Simultaneous Assignment",
+                "correct": false
+            },
+            {
+                "answer": "Augmented Assignment",
+                "correct": true
+            },
+            {
+                "answer": "Variable declaration",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is an example of an augmented assignment?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "x = x + 1",
+                "correct": false
+            },
+            {
+                "answer": "augmt = (x) * x + 1",
+                "correct": false
+            },
+            {
+                "answer": "x*=25",
+                "correct": true
+            },
+            {
+                "answer": "x,y = 1, 2",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is an example of a simultaneous assignment?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "x = x + 1",
+                "correct": false
+            },
+            {
+                "answer": "augmt = (x) * x + 1",
+                "correct": false
+            },
+            {
+                "answer": "x*=25",
+                "correct": false
+            },
+            {
+                "answer": "x,y = 1, 2",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "In Python, variable memory management is best described as a",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Box model",
+                "correct": false
+            },
+            {
+                "answer": "Stick-note Model",
+                "correct": true
+            },
+            {
+                "answer": "Reverse look up model",
+                "correct": false
+            },
+            {
+                "answer": "Heap model",
+                "correct": false
+            }
+        ]
+    }
+]

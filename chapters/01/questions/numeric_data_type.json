@@ -1,0 +1,286 @@
+[
+    {
+        "question": "What is the purpose of the `type()` function?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "To print the value of the input.",
+                "correct": false
+            },
+            {
+                "answer": "To compute the typical value of the input.",
+                "correct": false
+            },
+            {
+                "answer": "To determine the data type of the input.",
+                "correct": true
+            },
+            {
+                "answer": "To check if the name of the input is valid.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "`x=3`. What is the data type of x?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": true
+            },
+            {
+                "answer": "float",
+                "correct": false
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "`x=3.14`. What is the data type of x?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "`x=3.0`. What is the data type of x?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which data type is used when you store whole numbers, no decimals?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": true
+            },
+            {
+                "answer": "float",
+                "correct": false
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which data type is used when you store a number with decimal points?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Int take up fixed amount of space.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Float take up fixed amount of space.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The data type of the result of `3 + 3` will be",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": true
+            },
+            {
+                "answer": "float",
+                "correct": false
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The data type of the result of `3 + 3.0` will be",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The data type of the result of `3.0 + 3.0` will be",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Floats can store real numbers with infinite precision.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Int data type is stored as",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "bigint",
+                "correct": false
+            },
+            {
+                "answer": "long",
+                "correct": false
+            },
+            {
+                "answer": "short",
+                "correct": false
+            },
+            {
+                "answer": "bignum",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What will be the resulting data type of the expression `56 * 3.14`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+]

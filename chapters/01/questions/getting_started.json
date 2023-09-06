@@ -4,11 +4,11 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "True",
+                "answer": "True",
                 "correct": false
             },
             {
-                "code": "false",
+                "answer": "false",
                 "correct": true
             }
         ]
@@ -18,11 +18,11 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "True",
+                "answer": "True",
                 "correct": false
             },
             {
-                "code": "false",
+                "answer": "false",
                 "correct": true
             }
         ]
@@ -32,11 +32,11 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "True",
+                "answer": "True",
                 "correct": false
             },
             {
-                "code": "false",
+                "answer": "false",
                 "correct": true
             }
         ]
@@ -46,11 +46,11 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "True",
+                "answer": "True",
                 "correct": false
             },
             {
-                "code": "false",
+                "answer": "false",
                 "correct": true
             }
         ]
@@ -60,11 +60,11 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "True",
+                "answer": "True",
                 "correct": true
             },
             {
-                "code": "false",
+                "answer": "false",
                 "correct": false
             }
         ]
@@ -74,11 +74,11 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "True",
+                "answer": "True",
                 "correct": false
             },
             {
-                "code": "false",
+                "answer": "false",
                 "correct": true
             }
         ]
@@ -88,15 +88,15 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "Compiled",
+                "answer": "Compiled",
                 "correct": false
             },
             {
-                "code": "Interpreted",
+                "answer": "Interpreted",
                 "correct": false
             },
             {
-                "code": "Hybrid (compiled/interpreted)",
+                "answer": "Hybrid (compiled/interpreted)",
                 "correct": true
             }
         ]

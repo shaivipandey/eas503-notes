@@ -1,0 +1,373 @@
+[
+    {
+        "question": "Uppercase letters are equivalent to lowercase letters with respect to variable names.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Variable names are case sensitive.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Variable names can begin with",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Letter",
+                "correct": true
+            },
+            {
+                "answer": "Underscore",
+                "correct": true
+            },
+            {
+                "answer": "Number",
+                "correct": false
+            },{
+                "answer": "Special character (`$`, `@`)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Besides the first letter in a variable, variable names can contain",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Letter",
+                "correct": true
+            },
+            {
+                "answer": "Underscore",
+                "correct": true
+            },
+            {
+                "answer": "Number",
+                "correct": true
+            },{
+                "answer": "Special character (`$`, `@`)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a reserved keyword in Python",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "print",
+                "correct": false
+            },
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "del",
+                "correct": true
+            },{
+                "answer": "if",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Using snake_case for variable names is an example of following",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Restriction",
+                "correct": false
+            },
+            {
+                "answer": "Convention",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Not following variable name conventions will raise a Python error.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Surface Area of Cylinder used as a variable name `surface_area_of_cylinder` is following which naming convention?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Snake Case",
+                "correct": true
+            },
+            {
+                "answer": "Camel Case",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Surface Area of Cylinder used as a variable name `surfaceAreaOfCylinder` is following which naming convention?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Snake Case",
+                "correct": false
+            },
+            {
+                "answer": "Camel Case",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which of the following variable names are legal?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "record1",
+                "correct": true
+            },
+            {
+                "answer": "Record1",
+                "correct": true
+            },
+            {
+                "answer": "file_3",
+                "correct": true
+            },
+            {
+                "answer": "2ndFile",
+                "correct": false
+            },
+            {
+                "answer": "return",
+                "correct": false,
+                "feedback": "Reserved keyword"
+            },
+            {
+                "answer": "!tax",
+                "correct": false
+            },
+            {
+                "answer": "name",
+                "correct": true
+            },
+            {
+                "answer": "name and address",
+                "correct": false
+            },
+            {
+                "answer": "name_and_address",
+                "correct": true
+            },
+            {
+                "answer": "name-and-address",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Once a value has been assigned to a variable it cannot be changed.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "If a variable was set to an integer data type, it cannot be reused for another data type such as float.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Python is a",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Statically typed language",
+                "correct": false
+            },
+            {
+                "answer": "Dynamically typed language",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Dynamically typed languages allow the data type of variables to change with reassignment.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of error will be raised if you use a variable name before it has been assigned?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "NameError",
+                "correct": true
+            },
+            {
+                "answer": "SyntaxError",
+                "correct": false
+            },
+            {
+                "answer": "IndexError",
+                "correct": false
+            },
+            {
+                "answer": "TypeError",
+                "correct": false
+            },
+            {
+                "answer": "No error will be raised",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of error will the following expression raise? `x=3***-4`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "NameError",
+                "correct": false
+            },
+            {
+                "answer": "SyntaxError",
+                "correct": true
+            },
+            {
+                "answer": "IndexError",
+                "correct": false
+            },
+            {
+                "answer": "TypeError",
+                "correct": false
+            },
+            {
+                "answer": "No error will be raised",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of error will the following expression raise? `x=3**-4`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "NameError",
+                "correct": false
+            },
+            {
+                "answer": "SyntaxError",
+                "correct": false
+            },
+            {
+                "answer": "IndexError",
+                "correct": false
+            },
+            {
+                "answer": "TypeError",
+                "correct": false
+            },
+            {
+                "answer": "No error will be raised",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "`_Variable___` is a legal variable name.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "`@array` is a legal variable name",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },  
+    {
+        "question": "A variable name can overwrite a built-in Python function name.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ],
+        "feedback": "print for example"
+    },          
+]

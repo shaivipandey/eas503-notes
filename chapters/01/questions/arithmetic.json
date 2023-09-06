@@ -5,77 +5,148 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "Infinity",
+                "answer": "Infinity",
                 "correct": false
             },
             {
-                "code": "Negative Infinity",
+                "answer": "Negative Infinity",
                 "correct": true
             },
             {
-                "code": "Zero",
+                "answer": "Zero",
                 "correct": false
             },
         ]
     },
     {
-        "question": "-4.5 // 2",
+        "question": "What is the result of the expression -4.5 // 2?",
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "-2.0",
+                "answer": "-2.0",
                 "correct": false
             },
             {
-                "code": "-2.25",
+                "answer": "-2.25",
                 "correct": false
             },
             {
-                "code": "-3.0",
+                "answer": "-3.0",
                 "correct": true
             },
             {
-                "code": "-4.5",
+                "answer": "-4.5",
                 "correct": false
             }
         ]
     },
     {
-        "question": "4.5 // 2",
+        "question": "What is the result of the expression 4.5 // 2?",
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "2.0",
+                "answer": "2.0",
                 "correct": true
             },
             {
-                "code": "2.25",
+                "answer": "2.25",
                 "correct": false
             },
             {
-                "code": "3.0",
+                "answer": "3.0",
                 "correct": false
             },
             {
-                "code": "4.5",
+                "answer": "4.5",
                 "correct": false
             }
         ]
     },
     {
-        "question": "If you need to determine how many full hours are in a given number of minutes, which operator would you use?"        "type": "many_choice",
+        "question": "If you need to determine how many full hours are in a given number of minutes, which operator would you use?",
+        "type": "many_choice",
         "answers": [
             {
-                "code": "%",
+                "answer": "%",
                 "correct": false
             },
             {
-                "code": "/",
+                "answer": "/",
                 "correct": false
             },
             {
-                "code": "//",
+                "answer": "//",
                 "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the result of the expression 15 % 6?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "2.5",
+                "correct": false
+            },
+            {
+                "answer": "2",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": true
+            },
+            {
+                "answer": "0.5",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the result of the expression -15 // 6?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "2.5",
+                "correct": false
+            },
+            {
+                "answer": "2",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": false
+            },
+            {
+                "answer": "0.5",
+                "correct": false
+            },
+            {
+                "answer": "-3",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the result of the expression `15 // 6`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "2.5",
+                "correct": false
+            },
+            {
+                "answer": "2",
+                "correct": true
+            },
+            {
+                "answer": "0.5",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": false
             }
         ]
     }
