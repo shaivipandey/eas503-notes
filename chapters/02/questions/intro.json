@@ -17,7 +17,7 @@
             },
             {
                 "answer": "A function is a self-contained sequence of statements or instructions that possesses a name.",
-                "correct": false
+                "correct": true
             }
         ]
     },
