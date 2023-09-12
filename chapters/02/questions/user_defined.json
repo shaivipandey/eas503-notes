@@ -1,0 +1,114 @@
+[
+    {
+        "question": "What the required ingredients to define a function?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "def",
+                "correct": true
+            },
+            {
+                "answer": "a color (:)",
+                "correct": true
+            },
+            {
+                "answer": "Function name",
+                "correct": true
+            },
+            {
+                "answer": "Parentheses after the function name ()",
+                "correct": true
+            },
+            {
+                "answer": "Function body",
+                "correct": true
+            },
+            {
+                "answer": "Return Statement",
+                "correct": false
+            },
+            {
+                "answer": "Input Parameters",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Every function must have input(s)?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Every function must return output(s)?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "In the case a return statement is present in a function, what is the return value?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Trick question. There is not return value. ",
+                "correct": false
+            },
+            {
+                "answer": "0",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Not having a `return` statement in your function will raise an error.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Every function returns a value.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    }
+]

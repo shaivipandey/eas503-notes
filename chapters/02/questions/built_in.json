@@ -1,0 +1,488 @@
+[
+    {
+        "question": "The abs() function returns data type",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": false
+            },
+            {
+                "answer": "int or float depending on the input",
+                "correct": true
+            },
+            {
+                "answer": "complex",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The abs() function ALWAYS returns a positive number.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `int(77.5)` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "77",
+                "correct": true
+            },
+            {
+                "answer": "78",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `int('77.5')` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "77",
+                "correct": false
+            },
+            {
+                "answer": "77.0",
+                "correct": false
+            },
+            {
+                "answer": "78",
+                "correct": false
+            },
+            {
+                "answer": "78.0",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "The output of `int('77')` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "77",
+                "correct": true
+            },
+            {
+                "answer": "77.0",
+                "correct": false
+            },
+            {
+                "answer": "78",
+                "correct": false
+            },
+            {
+                "answer": "78.0",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `float('77')` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "77",
+                "correct": false
+            },
+            {
+                "answer": "77.0",
+                "correct": true
+            },
+            {
+                "answer": "78",
+                "correct": false
+            },
+            {
+                "answer": "78.0",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `float('77.5')` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "77.5",
+                "correct": true
+            },
+            {
+                "answer": "77.0",
+                "correct": false
+            },
+            {
+                "answer": "78",
+                "correct": false
+            },
+            {
+                "answer": "78.0",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `float('77.5.4')` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "77.5",
+                "correct": false
+            },
+            {
+                "answer": "77.0",
+                "correct": false
+            },
+            {
+                "answer": "78",
+                "correct": false
+            },
+            {
+                "answer": "78.0",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which function can you use to truncate the decimal portion of a number.",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "int()",
+                "correct": true
+            },
+            {
+                "answer": "float()",
+                "correct": false
+            },
+            {
+                "answer": "round()",
+                "correct": false
+            },
+            {
+                "answer": "math.floor()",
+                "correct": true
+            },
+            {
+                "answer": "math.ceil()",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The resultant data type of round is ()?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": true
+            },
+            {
+                "answer": "float",
+                "correct": false
+            },
+            {
+                "answer": "int or float depending on the input",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `round(19.4)` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "19",
+                "correct": true
+            },
+            {
+                "answer": "19.0",
+                "correct": false
+            },
+            {
+                "answer": "20",
+                "correct": false
+            },
+            {
+                "answer": "20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `round(-19.4)` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-19",
+                "correct": true
+            },
+            {
+                "answer": "-19.0",
+                "correct": false
+            },
+            {
+                "answer": "-20",
+                "correct": false
+            },
+            {
+                "answer": "-20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `round(19.5)` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "19",
+                "correct": false
+            },
+            {
+                "answer": "19.0",
+                "correct": false
+            },
+            {
+                "answer": "20",
+                "correct": true
+            },
+            {
+                "answer": "20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of `round(20.5)` is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "19",
+                "correct": false
+            },
+            {
+                "answer": "19.0",
+                "correct": false
+            },
+            {
+                "answer": "20",
+                "correct": true
+            },
+            {
+                "answer": "20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The function math.ceil() rounds",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Up",
+                "correct": true
+            },
+            {
+                "answer": "Down",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The function math.floor() rounds",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Up",
+                "correct": false
+            },
+            {
+                "answer": "Down",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "The output of math.floor(-19.5) is ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-19",
+                "correct": false
+            },
+            {
+                "answer": "-19.0",
+                "correct": false
+            },
+            {
+                "answer": "-20",
+                "correct": true
+            },
+            {
+                "answer": "-20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of math.ceil(-19.5) is ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-19",
+                "correct": true
+            },
+            {
+                "answer": "-19.0",
+                "correct": false
+            },
+            {
+                "answer": "-20",
+                "correct": false
+            },
+            {
+                "answer": "-20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of math.ceil(19.5) is ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "19",
+                "correct": false
+            },
+            {
+                "answer": "19.0",
+                "correct": false
+            },
+            {
+                "answer": "20",
+                "correct": true
+            },
+            {
+                "answer": "20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The output of math.floor(19.5) is ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "19",
+                "correct": true
+            },
+            {
+                "answer": "19.0",
+                "correct": false
+            },
+            {
+                "answer": "20",
+                "correct": false
+            },
+            {
+                "answer": "20.0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The min() and max() functions can take any number of arguments.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How can you raise a number (x) to a power (y) in Python?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "pow(x,y)",
+                "correct": true
+            },
+            {
+                "answer": "x**y",
+                "correct": true
+            },
+            {
+                "answer": "x^y",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How can you square a number (x) in Python?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "pow(x,2)",
+                "correct": true
+            },
+            {
+                "answer": "x**2",
+                "correct": true
+            },
+            {
+                "answer": "x^2",
+                "correct": false
+            },
+            {
+                "answer": "x*x",
+                "correct": false
+            }
+        ]
+    }
+]

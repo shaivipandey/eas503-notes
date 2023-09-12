@@ -1,0 +1,228 @@
+[
+    {
+        "question": "What is a function?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A function is a data type used to store values and variables in a program.",
+                "correct": false
+            },
+            {
+                "answer": "A function is a comment or annotation added to code to provide documentation, but it doesn't have any impact on program execution.",
+                "correct": false
+            },
+            {
+                "answer": "A function is a magical incantation that makes your code run faster.",
+                "correct": false
+            },
+            {
+                "answer": "A function is a self-contained sequence of statements or instructions that possesses a name.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are advantages of a function? ",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Functions can make your code longer and more complicated.",
+                "correct": false
+            },
+            {
+                "answer": "Functions are excellent for introducing bugs into your code and making it harder to debug.",
+                "correct": false
+            },
+            {
+                "answer": "Functions are perfect for ensuring complete secrecy of your code, keeping it hidden from anyone who reads it.",
+                "correct": false
+            },
+            {
+                "answer": "Functions break down larger programs into logical subprograms.",
+                "correct": true
+            },
+            {
+                "answer": "Functions make debugging easier.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "How does Python differentiate a function from surrounding code?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "By enclosing the function body in curly braces {}.",
+                "correct": false
+            },
+            {
+                "answer": "By enclosing the function body inside parentheses ().",
+                "correct": false
+            },
+            {
+                "answer": "By using a colon after the function name and its parameter and two/four spaces.",
+                "correct": true
+            },
+            {
+                "answer": "There is no need differentiate because the `def` keyword is sufficent.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What kind of error is raised when the indentation of lines inside the body of a function are not all the same?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "IndentationError ",
+                "correct": true
+            },
+            {
+                "answer": "No error is raised because inconsistency in the indentation of the lines do not matter.",
+                "correct": false
+            },
+            {
+                "answer": "IndexError",
+                "correct": false
+            },
+            {
+                "answer": "ArithmeticError",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The indentation of the lines of code inside a function can vary.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Every function takes an input.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Every function must explicitly return a value.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Functions can call other functions.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Defining the function is the same as calling it.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Function calls must use parentheses ().",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The keyword `function` is used to define a function.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "A function can only be called once.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Function parameters that are not required are called",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Optional",
+                "correct": true
+            },
+            {
+                "answer": "Trick Question, all parameters are required.",
+                "correct": false
+            },
+            {
+                "answer": "Default Parameters",
+                "correct": true
+            },
+            {
+                "answer": "Augmented Parameters",
+                "correct": false
+            }
+        ]
+    }
+]

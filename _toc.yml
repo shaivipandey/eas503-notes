@@ -49,6 +49,8 @@ chapters:
     title: Namespace and Scope
   - file: chapters/02/exercises
     title: Exercises
+  - file: chapters/02/quizzes.md
+    title: Quizzes
 - file: chapters/03/intro
   sections:
   - file: chapters/03/basics
