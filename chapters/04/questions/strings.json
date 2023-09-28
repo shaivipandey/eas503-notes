@@ -1,0 +1,68 @@
+[
+    {
+        "question": "What is the value of 'B' < 'b'",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the value of 'BB' < 'B'",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the value of '11' < '2'",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    }
+]

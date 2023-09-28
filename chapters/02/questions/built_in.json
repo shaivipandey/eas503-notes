@@ -210,7 +210,7 @@
         ]
     },
     {
-        "question": "The resultant data type of round is ()?",
+        "question": "The resultant data type of round() is ?",
         "type": "multiple_choice",
         "answers": [
             {
@@ -481,7 +481,7 @@
             },
             {
                 "answer": "x*x",
-                "correct": false
+                "correct": true
             }
         ]
     }

@@ -1,0 +1,168 @@
+[
+    {
+        "question": "All strings have methods attached to them.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The strip method modifies the original string.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "The default character used for stripping are:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "whitespace",
+                "correct": true
+            },
+            {
+                "answer": "tab",
+                "correct": true
+            },
+            {
+                "answer": "new line",
+                "correct": true
+            },
+            {
+                "answer": "padded characters",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "strip() on strips on the right end of a string",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "The find method will return what if it it does not find the substring",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Raise an error",
+                "correct": false
+            },
+            {
+                "answer": "Return False",
+                "correct": false
+            },
+            {
+                "answer": "Return -1",
+                "correct": true
+            },
+            {
+                "answer": "Return None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The index method will return what if it it does not find the substring",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Raise an error",
+                "correct": true
+            },
+            {
+                "answer": "Return False",
+                "correct": false
+            },
+            {
+                "answer": "Return -1",
+                "correct": false
+            },
+            {
+                "answer": "Return None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The `in` operator will return what if it it does not find the substring",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Raise an error",
+                "correct": false
+            },
+            {
+                "answer": "Return False",
+                "correct": true
+            },
+            {
+                "answer": "Return -1",
+                "correct": false
+            },
+            {
+                "answer": "Return None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The `in` operator will return what if it it does not find the substring",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Raise an error",
+                "correct": false
+            },
+            {
+                "answer": "Return False",
+                "correct": true
+            },
+            {
+                "answer": "Return -1",
+                "correct": false
+            },
+            {
+                "answer": "Return None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The join method requires that all the elements to be joined be of data type string.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    }
+]

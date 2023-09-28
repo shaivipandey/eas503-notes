@@ -1,0 +1,208 @@
+[
+    {
+        "question": "What is the output of round(4.58, 2)?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "4.5",
+                "correct": false
+            },
+            {
+                "answer": "4.50",
+                "correct": false
+            },
+            {
+                "answer": "4.6",
+                "correct": true
+            },
+            {
+                "answer": "4.60",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the output of f'4.58:.2f'?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "4.5",
+                "correct": false
+            },
+            {
+                "answer": "4.50",
+                "correct": false
+            },
+            {
+                "answer": "4.6",
+                "correct": false
+            },
+            {
+                "answer": "4.60",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "The default justification for a string is.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "left",
+                "correct": true
+            },
+            {
+                "answer": "right",
+                "correct": false
+            },
+            {
+                "answer": "center",
+                "correct": false
+            },
+            {
+                "answer": "Not a valid question.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The default justification for a number is.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "left",
+                "correct": false
+            },
+            {
+                "answer": "right",
+                "correct": true
+            },
+            {
+                "answer": "center",
+                "correct": false
+            },
+            {
+                "answer": "Not a valid question.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The default padding character is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "space",
+                "correct": true
+            },
+            {
+                "answer": "-",
+                "correct": false
+            },
+            {
+                "answer": "0",
+                "correct": false
+            },
+            {
+                "answer": "Depends on data type",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The format specifier allows you to ",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "specify padding character",
+                "correct": true
+            },
+            {
+                "answer": "specify alignment",
+                "correct": true
+            },
+            {
+                "answer": "specify width",
+                "correct": true
+            },
+            {
+                "answer": "add commas for easier readability",
+                "correct": true
+            },
+            {
+                "answer": "control precision of float data type",
+                "correct": true
+            },
+            {
+                "answer": "add colors",
+                "correct": false
+            },
+            {
+                "answer": "make text bold",
+                "correct": false
+            },
+            {
+                "answer": "make text italic",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "If the width of a string is larger than the format specifier width, then Python will",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "raise an error",
+                "correct": false
+            },
+            {
+                "answer": "ignore the width specifier",
+                "correct": true
+            },
+            {
+                "answer": "truncate the string",
+                "correct": false
+            },
+            {
+                "answer": "decide based on the data type",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "For the template string method, also called the newer method, if you specify more values than place holders, Python will",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "raise an error",
+                "correct": false
+            },
+            {
+                "answer": "ignore the extra values",
+                "correct": true
+            },
+            {
+                "answer": "add the extra values at the end",
+                "correct": false
+            },
+            {
+                "answer": "decide based on the data type",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "For the template string method, also called the newer method, you can specify the order in which values will be substituted in the placeholders using an index.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    }
+]

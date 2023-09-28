@@ -1,0 +1,40 @@
+[
+    {
+        "question": "Which of the following of have a truthiness value of false?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "None",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": true
+            },
+            {
+                "answer": "Empty sequence '', [], ()",
+                "correct": true
+            },
+            {
+                "answer": "0, 0.0",
+                "correct": true
+            },
+            {
+                "answer": "'0'",
+                "correct": false
+            },
+            {
+                "answer": "'0.0'",
+                "correct": false
+            },
+            {
+                "answer": "any sequence with 0 length",
+                "correct": true
+            }, 
+            {
+                "answer": "-1",
+                "correct": false
+            }
+        ]
+    }
+]

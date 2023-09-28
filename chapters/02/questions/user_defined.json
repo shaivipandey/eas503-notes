@@ -8,7 +8,7 @@
                 "correct": true
             },
             {
-                "answer": "a color (:)",
+                "answer": "a colon (:)",
                 "correct": true
             },
             {
@@ -62,11 +62,11 @@
         ]
     },
     {
-        "question": "In the case a return statement is present in a function, what is the return value?",
+        "question": "In the case a return statement is NOT present in a function, what is the return value?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Trick question. There is not return value. ",
+                "answer": "Trick question. There is no return value.",
                 "correct": false
             },
             {

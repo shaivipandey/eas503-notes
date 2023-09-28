@@ -1,0 +1,414 @@
+[
+    {
+        "question": "Strings are indicated in Python using",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Single Quotes",
+                "correct": true
+            },
+            {
+                "answer": "Double Quotes",
+                "correct": true
+            },
+            {
+                "answer": "Square Braces",
+                "correct": true
+            },
+            {
+                "answer": "Exclamation Marks",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following are valid strings?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "'True'",
+                "correct": true
+            },
+            {
+                "answer": "'False'",
+                "correct": true
+            },
+            {
+                "answer": "'int'",
+                "correct": true
+            },
+            {
+                "answer": "\"float\"",
+                "correct": true
+            },
+            {
+                "answer": "\"str\"",
+                "correct": true
+            },
+            {
+                "answer": "'String\"",
+                "correct": false
+            },
+            {
+                "answer": "\"Valid'",
+                "correct": false
+            },
+        ]
+    },
+    {
+        "question": "Strings cannot contain numbers.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "It is possible to indicate a string value by surrounding by single or double quotes, mix and matching is allowed.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "An important property of a string is that it is a/an",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Sequence",
+                "correct": true
+            },
+            {
+                "answer": "String",
+                "correct": false
+            },
+            {
+                "answer": "Index",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How can you get the length of a string?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Trick Question, you cannot!",
+                "correct": false
+            },
+            {
+                "answer": "Using the length() function",
+                "correct": true
+            },
+            {
+                "answer": "Using the len() function",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the meaning of the + operator?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It has not meaning and Python will raise an error.",
+                "correct": false
+            },
+            {
+                "answer": "It will concatenate two strings.",
+                "correct": true
+            },
+            {
+                "answer": "It will repeat the string.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the meaning of the * operator?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It has not meaning and Python will raise an error.",
+                "correct": false
+            },
+            {
+                "answer": "It will concatenate two strings.",
+                "correct": false
+            },
+            {
+                "answer": "It will repeat the string.",
+                "correct": true
+            },
+            {
+                "answer": "It will concatenate two strings and update a value.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the meaning of += for a string?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "It has not meaning and Python will raise an error.",
+                "correct": false
+            },
+            {
+                "answer": "It will concatenate two strings.",
+                "correct": false
+            },
+            {
+                "answer": "It will repeat the string.",
+                "correct": false
+            },
+            {
+                "answer": "It will concatenate two strings and update a value.",
+                "correct": true
+            }
+
+        ]
+    },
+    {
+        "question": "The int() function can convert which of the following strings to an int type?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "-6",
+                "correct": true
+            },
+            {
+                "answer": "6",
+                "correct": true
+            },
+            {
+                "answer": "6.25",
+                "correct": false
+            },
+            {
+                "answer": "-6.25",
+                "correct": false
+            },
+            {
+                "answer": "-6.0.25",
+                "correct": false
+            },
+            {
+                "answer": "6.0.25",
+                "correct": false
+            }
+
+        ]
+    },
+    {
+        "question": "The float() function can convert which of the following strings to an int type?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "-6",
+                "correct": true
+            },
+            {
+                "answer": "6",
+                "correct": true
+            },
+            {
+                "answer": "6.25",
+                "correct": true
+            },
+            {
+                "answer": "-6.25",
+                "correct": true
+            },
+            {
+                "answer": "-6.0.25",
+                "correct": false
+            },
+            {
+                "answer": "6.0.25",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the output of 'C' + 2 + 'O'?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "C2O",
+                "correct": false
+            },
+            {
+                "answer": "C 2 O",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": true
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the output of 'C' + '2' + 'O'?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "C2O",
+                "correct": true
+            },
+            {
+                "answer": "C 2 O",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the output of 'C' + str(2) + 'O'?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "C2O",
+                "correct": true
+            },
+            {
+                "answer": "C 2 O",
+                "correct": false
+            },
+            {
+                "answer": "Python will raise an error",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The print() function can print unlimited number of values.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true
+            },
+            {
+                "answer": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The default separator for print is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "\t",
+                "correct": false
+            },
+            {
+                "answer": "\n",
+                "correct": false
+            },
+            {
+                "answer": " ",
+                "correct": true
+            },
+            {
+                "answer": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the optional argument to override the default print separator?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Trick Question, you cannot override it",
+                "correct": false
+            },
+            {
+                "answer": "sep",
+                "correct": true
+            },
+            {
+                "answer": "separator",
+                "correct": false
+            },
+            {
+                "answer": "separators",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of backslash inside a string?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "You can use backslash to put special characters inside a string.",
+                "correct": true
+            },
+            {
+                "answer": "Trick question, python does not recognize backslash as a special character.",
+                "correct": false
+            },
+            {
+                "answer": "It is used to activate turbo mode, making the string process faster than any other string.",
+                "correct": false
+            },
+            {
+                "answer": "It is used to denote currency, much like the dollar sign $.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The data type returned from the input function is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "str",
+                "correct": true
+            },
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "str, int, or float depending on what the user provided.",
+                "correct": false
+            }
+        ]
+    }
+]

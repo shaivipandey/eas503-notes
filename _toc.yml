@@ -63,6 +63,8 @@ chapters:
     title: String Methods
   - file: chapters/03/exercises
     title: Exercises
+  - file: chapters/03/quizzes.md
+    title: Quizzes
 - file: chapters/04/intro
   sections:
   - file: chapters/04/boolean
@@ -75,6 +77,8 @@ chapters:
     title: Statement Selection
   - file: chapters/04/exercises
     title: Exercises
+  - file: chapters/04/quizzes.md
+    title: Quizzes
 - file: chapters/05/intro
   sections:
   - file: chapters/05/lists
