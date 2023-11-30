@@ -125,6 +125,9 @@ chapters:
 - file: chapters/12/intro
   sections:
   - file: chapters/12/oop
+  - file: chapters/12/operator_overloading
+  - file: chapters/12/self
+  - file: chapters/12/item_assignment
 - file: chapters/13/sql
   sections:
   - file: chapters/13/sql_0_tables
@@ -141,9 +144,11 @@ chapters:
   - file: chapters/13/sql_11_soccer
 - file: chapters/14/intro
   sections:
-  - file: chapters/14/np_pd
-  - file: chapters/14/exercises
+  - file: chapters/14/matplotlib
 - file: chapters/15/intro
+  sections:
+  - file: chapters/15/np_pd
+  - file: chapters/15/exercises
 - file: chapters/16/intro
   sections:
   - file: chapters/16/introduction

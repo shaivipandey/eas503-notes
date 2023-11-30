@@ -13,7 +13,7 @@
             },
             {
                 "answer": "Square Braces",
-                "correct": true
+                "correct": false
             },
             {
                 "answer": "Exclamation Marks",
@@ -111,11 +111,11 @@
             },
             {
                 "answer": "Using the length() function",
-                "correct": true
+                "correct": false
             },
             {
                 "answer": "Using the len() function",
-                "correct": false
+                "correct": true
             }
         ]
     },
@@ -328,19 +328,19 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "\t",
+                "answer": "tab",
                 "correct": false
             },
             {
-                "answer": "\n",
+                "answer": "new line",
                 "correct": false
             },
             {
-                "answer": " ",
+                "answer": "a single space",
                 "correct": true
             },
             {
-                "answer": "",
+                "answer": "no space",
                 "correct": false
             }
         ]
@@ -403,7 +403,7 @@
             },
             {
                 "answer": "float",
-                "correct": true
+                "correct": false
             },
             {
                 "answer": "str, int, or float depending on what the user provided.",

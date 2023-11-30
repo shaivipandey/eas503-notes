@@ -1,6 +1,6 @@
 [
     {
-        "question": "What is the output of round(4.58, 2)?",
+        "question": "What is the output of round(4.599, 2)?",
         "type": "multiple_choice",
         "answers": [
             {
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "question": "What is the output of f'4.58:.2f'?",
+        "question": "What is the output of f'{4.599:.2f}'?",
         "type": "multiple_choice",
         "answers": [
             {
