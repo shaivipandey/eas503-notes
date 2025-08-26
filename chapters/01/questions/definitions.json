@@ -1,217 +1,224 @@
 [
-    {
-        "question": "Syntax is",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "A set of rules that specify the correct arrangement of operators and operands",
-                "correct": true
-            },
-            {
-                "answer": "Symbols that perform specific mathematical or logical manipulations",
-                "correct": false
-            },
-            {
-                "answer": "The value that an operator acts upon",
-                "correct": false
-            },
-            {
-                "answer": "A combination of operators and operands that returns a value",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Operator is",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "A set of rules that specify the correct arrangement of operators and operands",
-                "correct": false
-            },
-            {
-                "answer": "Symbols that perform specific mathematical or logical manipulations",
-                "correct": true
-            },
-            {
-                "answer": "The value that an operator acts upon",
-                "correct": false
-            },
-            {
-                "answer": "A combination of operators and operands that returns a value",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Operand is",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "A set of rules that specify the correct arrangement of operators and operands",
-                "correct": false
-            },
-            {
-                "answer": "Symbols that perform specific mathematical or logical manipulations",
-                "correct": false
-            },
-            {
-                "answer": "The value that an operator acts upon",
-                "correct": true
-            },
-            {
-                "answer": "A combination of operators and operands that returns a value",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Expression is",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "A set of rules that specify the correct arrangement of operators and operands",
-                "correct": false
-            },
-            {
-                "answer": "Symbols that perform specific mathematical or logical manipulations",
-                "correct": false
-            },
-            {
-                "answer": "The value that an operator acts upon",
-                "correct": false
-            },
-            {
-                "answer": "A combination of operators and operands that returns a value",
-                "correct": true
-            }
-        ]
-    },  
-    {
-        "question": "+, -, *, / are an example of",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Syntax",
-                "correct": false
-            },
-            {
-                "answer": "Operator",
-                "correct": true
-            },
-            {
-                "answer": "Operand",
-                "correct": false
-            },
-            {
-                "answer": "Expression",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "In the expression, '4 + 5', '4' is ",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Syntax",
-                "correct": false
-            },
-            {
-                "answer": "Operator",
-                "correct": false
-            },
-            {
-                "answer": "Operand",
-                "correct": true
-            },
-            {
-                "answer": "Expression",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "Expressions CANNOT contain other expressions",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "True",
-                "correct": false
-            },
-            {
-                "answer": "False",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "question": "Expressions are ALWAYS made up of",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Operator",
-                "correct": false
-            },
-            {
-                "answer": "Operand",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "question": "Expressions can contain",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Operator",
-                "correct": true
-            },
-            {
-                "answer": "Operand",
-                "correct": true
-            },
-            {
-                "answer": "Expression",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "question": "In the expression `56 * 29`, what is/are the operators(s)?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "*",
-                "correct": true
-            },
-            {
-                "answer": "29",
-                "correct": false
-            },
-            {
-                "answer": "56",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "In the expression `56 * 29`, what is/are the operand(s)?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "*",
-                "correct": false
-            },
-            {
-                "answer": "29",
-                "correct": true
-            },
-            {
-                "answer": "56",
-                "correct": true
-            }
-        ]
-    }
-    
+  {
+    "question": "Syntax is",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "A set of rules that specify the correct arrangement and structure of code elements (e.g., keywords, operators, operands)",
+        "correct": true
+      },
+      {
+        "answer": "Symbols that perform specific mathematical or logical manipulations",
+        "correct": false
+      },
+      {
+        "answer": "The value that an operator acts upon",
+        "correct": false
+      },
+      {
+        "answer": "A combination of operators and operands that returns a value",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Operator is",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "A set of rules that specify the correct arrangement and structure of code elements",
+        "correct": false
+      },
+      {
+        "answer": "A symbol (or keyword) that performs a specific mathematical, logical, or other operation",
+        "correct": true
+      },
+      {
+        "answer": "The value that an operator acts upon",
+        "correct": false
+      },
+      {
+        "answer": "A combination of operators and operands that returns a value",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Operand is",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "A set of rules that specify the correct arrangement and structure of code elements",
+        "correct": false
+      },
+      {
+        "answer": "A symbol (or keyword) that performs a specific mathematical, logical, or other operation",
+        "correct": false
+      },
+      {
+        "answer": "The value or expression that an operator acts upon (e.g., 5, x, or (a + b))",
+        "correct": true
+      },
+      {
+        "answer": "A combination of operators and operands that returns a value",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Expression is",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "A set of rules that specify the correct arrangement and structure of code elements",
+        "correct": false
+      },
+      {
+        "answer": "A symbol (or keyword) that performs a specific mathematical, logical, or other operation",
+        "correct": false
+      },
+      {
+        "answer": "Any valid combination of literals, variables, operators, and/or sub-expressions that evaluates to a value (e.g., 5, x, 4 + 1)",
+        "correct": true
+      },
+      {
+        "answer": "The value or expression that an operator acts upon",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "+, -, , / are an example of",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Syntax",
+        "correct": false
+      },
+      {
+        "answer": "Operators",
+        "correct": true
+      },
+      {
+        "answer": "Operands",
+        "correct": false
+      },
+      {
+        "answer": "Expressions",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the expression '4 + 5', '4' is",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Syntax",
+        "correct": false
+      },
+      {
+        "answer": "Operator",
+        "correct": false
+      },
+      {
+        "answer": "Operand",
+        "correct": true
+      },
+      {
+        "answer": "Expression",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Expressions CANNOT contain other expressions",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": false
+      },
+      {
+        "answer": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following are valid Python expressions?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "5",
+        "correct": true
+      },
+      {
+        "answer": "x",
+        "correct": true
+      },
+      {
+        "answer": "4 + 1",
+        "correct": true
+      },
+      {
+        "answer": "if x > 0:",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Expressions can contain",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Operators",
+        "correct": true
+      },
+      {
+        "answer": "Operands",
+        "correct": true
+      },
+      {
+        "answer": "Other expressions (nested)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "In the expression 56 * 29, what is/are the operator(s)?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "",
+        "correct": true
+      },
+      {
+        "answer": "29",
+        "correct": false
+      },
+      {
+        "answer": "56",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In the expression 56 * 29, what is/are the operand(s)?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "*",
+        "correct": false
+      },
+      {
+        "answer": "29",
+        "correct": true
+      },
+      {
+        "answer": "56",
+        "correct": true
+      }
+    ]
+  }
 ]

@@ -1,153 +1,152 @@
 [
-    
-    {
-        "question": "'//' Rounds toward",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Infinity",
-                "correct": false
-            },
-            {
-                "answer": "Negative Infinity",
-                "correct": true
-            },
-            {
-                "answer": "Zero",
-                "correct": false
-            },
-        ]
-    },
-    {
-        "question": "What is the result of the expression -4.5 // 2?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "-2.0",
-                "correct": false
-            },
-            {
-                "answer": "-2.25",
-                "correct": false
-            },
-            {
-                "answer": "-3.0",
-                "correct": true
-            },
-            {
-                "answer": "-4.5",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "What is the result of the expression 4.5 // 2?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "2.0",
-                "correct": true
-            },
-            {
-                "answer": "2.25",
-                "correct": false
-            },
-            {
-                "answer": "3.0",
-                "correct": false
-            },
-            {
-                "answer": "4.5",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "If you need to determine how many full hours are in a given number of minutes, which operator would you use?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "%",
-                "correct": false
-            },
-            {
-                "answer": "/",
-                "correct": false
-            },
-            {
-                "answer": "//",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "question": "What is the result of the expression 15 % 6?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "2.5",
-                "correct": false
-            },
-            {
-                "answer": "2",
-                "correct": false
-            },
-            {
-                "answer": "3",
-                "correct": true
-            },
-            {
-                "answer": "0.5",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "question": "What is the result of the expression -15 // 6?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "2.5",
-                "correct": false
-            },
-            {
-                "answer": "2",
-                "correct": false
-            },
-            {
-                "answer": "3",
-                "correct": false
-            },
-            {
-                "answer": "0.5",
-                "correct": false
-            },
-            {
-                "answer": "-3",
-                "correct": true
-            }
-        ]
-    },
-    {
-        "question": "What is the result of the expression `15 // 6`?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "2.5",
-                "correct": false
-            },
-            {
-                "answer": "2",
-                "correct": true
-            },
-            {
-                "answer": "0.5",
-                "correct": false
-            },
-            {
-                "answer": "3",
-                "correct": false
-            }
-        ]
-    }
+  {
+    "question": "In Python, the '//' (floor division) operator rounds the result toward:",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Infinity",
+        "correct": false
+      },
+      {
+        "answer": "Negative Infinity",
+        "correct": true
+      },
+      {
+        "answer": "Zero",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the result of the expression -4.5 // 2?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "-2.0",
+        "correct": false
+      },
+      {
+        "answer": "-2.25",
+        "correct": false
+      },
+      {
+        "answer": "-3.0",
+        "correct": true
+      },
+      {
+        "answer": "-4.5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the result of the expression 4.5 // 2?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "2.0",
+        "correct": true
+      },
+      {
+        "answer": "2.25",
+        "correct": false
+      },
+      {
+        "answer": "3.0",
+        "correct": false
+      },
+      {
+        "answer": "4.5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "If you need to determine how many full hours are in a given number of minutes, which operator would you use?",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "%",
+        "correct": false
+      },
+      {
+        "answer": "/",
+        "correct": false
+      },
+      {
+        "answer": "//",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the result of the expression 15 % 6?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "2.5",
+        "correct": false
+      },
+      {
+        "answer": "2",
+        "correct": false
+      },
+      {
+        "answer": "3",
+        "correct": true
+      },
+      {
+        "answer": "0.5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the result of the expression -15 // 6?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "2.5",
+        "correct": false
+      },
+      {
+        "answer": "2",
+        "correct": false
+      },
+      {
+        "answer": "3",
+        "correct": false
+      },
+      {
+        "answer": "0.5",
+        "correct": false
+      },
+      {
+        "answer": "-3",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the result of the expression 15 // 6?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "2.5",
+        "correct": false
+      },
+      {
+        "answer": "2",
+        "correct": true
+      },
+      {
+        "answer": "0.5",
+        "correct": false
+      },
+      {
+        "answer": "3",
+        "correct": false
+      }
+    ]
+  }
 ]

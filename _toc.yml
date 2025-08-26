@@ -1,6 +1,6 @@
 format: jb-book
 root: chapters/intro
-options: 
+options:
   numbered: True
 chapters:
 - file: chapters/01/fundamentals
@@ -139,6 +139,7 @@ chapters:
   - file: chapters/13/sql_6_conditionals
   - file: chapters/13/sql_7_analytic_functions
   - file: chapters/13/sql_8_normalization
+  - file: chapters/13/sql_8_normalization_old
   - file: chapters/13/sql_9_python
   - file: chapters/13/sql_10_india_export_data
   - file: chapters/13/sql_11_soccer
@@ -156,4 +157,3 @@ chapters:
   - file: chapters/16/preprocessing_data
   - file: chapters/16/select_and_train_a_model
   - file: chapters/16/misc
-
